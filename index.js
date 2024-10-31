@@ -17,7 +17,7 @@ function generatePoem(event) {
     "A great and knowledgeable poet who can make good poems. Please generate appropriate and good, short 4-line poem  in basic HTML. Please follow user's instruction. Present the poem without the word html";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   new Typewriter(poemText, {
-    strings: "⏳Generating Poem...⏳",
+    strings: "⏳Generating a great poem...⏳",
     autoStart: true,
     delay: 25,
     cursor: "",
